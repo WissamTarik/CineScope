@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { actGetSpecificMovie } from "./ActGetSpecificMovie";
 import { actGetMovieLink } from "./actGetMovieLink";
+import { actGetSpecificMovie } from "./actGetSpecificMovie";
 
 const initialState={
    isLoading:"idle",
