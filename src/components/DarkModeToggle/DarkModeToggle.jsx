@@ -10,7 +10,7 @@ const DarkModeToggle = () => {
   className="w-full flex items-center justify-start gap-2 mt-4 
              bg-gray-200 text-gray-800 hover:bg-gray-300
              dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 
-             px-3 py-2 rounded-lg transition"
+             px-3 py-2  mb-8 rounded-lg transition"
         aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
 >
   {isDark ? (
