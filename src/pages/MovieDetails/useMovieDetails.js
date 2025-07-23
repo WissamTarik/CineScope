@@ -2,12 +2,12 @@ import { useEffect, useState } from "react"
 import toast from "react-hot-toast"
 import { useDispatch, useSelector } from "react-redux"
 import { useParams } from "react-router-dom"
-import { actGetSpecificMovie } from "../../Libraries/Redux/GetSpecificMovie/ActGetSpecificMovie"
 import { actGetRelatedMovies } from "../../Libraries/Redux/GetMovies/actGetRelatedMovies"
 import { actGetCastForSpecificMovie } from "../../Libraries/Redux/GetCastForSpecificMovie/actGetCastForSpecificMovie"
 import { cleanUpMovies } from "../../Libraries/Redux/GetMovies/MoviesSlice"
 import { cleanUpCastForAMovie } from "../../Libraries/Redux/GetCastForSpecificMovie/getCastForSpecificMovieSlice"
 import { actGetMovieLink } from "../../Libraries/Redux/GetSpecificMovie/actGetMovieLink"
+import { actGetSpecificMovie } from "../../Libraries/Redux/GetSpecificMovie/actGetSpecificMovie"
 
 const useMovieDetails = () => {
      const {id}=useParams()
